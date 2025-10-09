@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3be62baf-60eb-4cd7-9b2b-deb46b9b3219" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zmienne.py" afterDir="false" />
-    </list>
+    <list default="true" id="3be62baf-60eb-4cd7-9b2b-deb46b9b3219" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,9 +32,11 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.testowy.executor": "Run",
+    "Python.wejscie.executor": "Run",
+    "Python.wejscie_i_wyjscie.executor": "Run",
     "Python.zmienne.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "tor__poboczny"
+    "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="SharedIndexes">
