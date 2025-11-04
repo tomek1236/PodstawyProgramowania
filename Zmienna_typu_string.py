@@ -67,3 +67,75 @@ print(cale_zdanie2)
 napis5 = 'prawdopodobieństwo'
 ile_razy_o = napis5.count('o')
 print(ile_razy_o)
+
+dane = input('Podaj 5 liczb')
+lista = dane.split(';')
+print(lista)
+
+wynik = ''
+
+"""if int(lista[0]) > 0:
+    wynik = wynik + lista[0]
+if int(lista[1]) > 0:
+    wynik = wynik + lista[1]
+if int(lista[2]) > 0:
+    wynik = wynik + lista[2]
+if int(lista[3]) > 0:
+    wynik = wynik + lista[3]
+if int(lista[4]) > 0:
+    wynik = wynik + lista[4]"""
+
+print(wynik)
+
+wyraz = 'amteytkaam'
+czesc1 = wyraz[::-2]
+
+czesc2 = wyraz[::2]
+print(czesc1 + czesc2)
+
+#5.) "Mutowalność stringów"
+napis6 = 'Fiwyka'
+"""napis6[2] = 'z'
+print(napis6)"""
+#Wniosek: Stringi są niemutowalne, czyli nie można podmieniać pojedynczych liter
+
+#sposób na zmutowanie stringa
+napis6_lista = list(napis6)
+print(napis6_lista)
+napis6_lista[2] = 'z'
+print(napis6_lista)
+napis6 = ''.join(napis6_lista)
+print(napis6)
+
+#6) Długość napisu
+napis7 = "językpolski"
+print(len(napis7))
+
+#7) Powielanie stringa
+napis8 = "informatyka"
+print(napis8 * 3)
+
+
+#8 Funkcje testujące cyfry i litery
+napis9 = 'qwerty'
+if napis9.isalpha() == True:
+    print('słowo składa się z liter')
+else:
+    print('słowo nie składa się z liter')
+
+
+
+napis10 = '1410'
+if napis10.isdigit() == True:
+    print('słowo składa się z cyfr')
+else:
+    print('słowo nie składa się z cyfr')
+
+napis11 = '1410'
+if napis11.isalnum() == True:
+    print('słowo składa się z cyfr lub liter')
+else:
+    print('słowo nie składa się z cyfr lub liter')
+
+
+
