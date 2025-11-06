@@ -139,3 +139,54 @@ else:
 
 
 
+#9 Kody ASCII
+#9.1. ze znaku na kod ASCI
+print(ord('A'))
+
+
+#9.2 z kodu ASCII na znak
+print(chr(66))
+
+
+print(chr(ord('Z')))
+
+
+#10. Funkcja translate
+
+slownik = str.maketrans('ąęćóżźśłń', 'aecozzsln')
+napis12 = 'ińfórmątyką'
+napis12_poprawny = napis12.translate(slownik)
+print(napis12_poprawny)
+
+#11. Funkcje dużych i małych literek
+napis13 = 'KoNgO'
+napis13_tylko_duze = napis13.upper()
+print(napis13_tylko_duze)
+
+napis13_tylko_male = napis13.lower()
+print(napis13_tylko_male)
+
+#12. Postawienie ciagu znaków
+napis14 = 'Chleb kosztuje 15zł, a bułka 5zł'
+napis14_w_euro = napis14.replace('zł','€')
+print(napis14_w_euro)
+
+#13 sortowanie i odwracanie napisu
+#13.1 odwracanie
+napis15 = 'kemot'
+napis15_odwrotnie = napis15[::-1]
+print(napis15_odwrotnie)
+
+#13.2 sortowanie napisu
+napis16 = 'dbca'
+napis16_posortowany_lista = sorted(napis16)
+print(napis16_posortowany_lista)
+napis16_posortowany = ''.join(napis16_posortowany_lista)
+print(napis16_posortowany)
+
+
+
+
+
+
+
