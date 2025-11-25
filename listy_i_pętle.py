@@ -81,3 +81,7 @@ while liczba > 0:
 
 
 
+
+
+
+

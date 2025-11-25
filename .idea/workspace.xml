@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3be62baf-60eb-4cd7-9b2b-deb46b9b3219" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/listy_i_pętle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petla_for_zadania.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petle_powtorzenie.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listy_i_pętle.py" beforeDir="false" afterPath="$PROJECT_DIR$/listy_i_pętle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,8 @@
     "Python.instrukcje_warunkowe_zadania.executor": "Run",
     "Python.listy_i_pętle.executor": "Run",
     "Python.operatory_logiczne_i_arytmetyczne.executor": "Run",
+    "Python.petla_for_zadania.executor": "Run",
+    "Python.petle_powtorzenie.executor": "Run",
     "Python.testowy.executor": "Run",
     "Python.wejscie.executor": "Run",
     "Python.wejscie_i_wyjscie.executor": "Run",
