@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3be62baf-60eb-4cd7-9b2b-deb46b9b3219" name="Changes" comment="" />
+    <list default="true" id="3be62baf-60eb-4cd7-9b2b-deb46b9b3219" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +36,7 @@
     "Python.Instrukcje_warunkowe.executor": "Run",
     "Python.Zmienna_typu_string.executor": "Run",
     "Python.instrukcje_warunkowe_zadania.executor": "Run",
+    "Python.kartkowka_powtorzenie_petla_cz1.executor": "Run",
     "Python.listy_i_pętle.executor": "Run",
     "Python.operatory_logiczne_i_arytmetyczne.executor": "Run",
     "Python.petla_for_zadania.executor": "Run",
@@ -48,6 +51,11 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\0C gr 2\PycharmProjects\PythonProject" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

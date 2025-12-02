@@ -28,10 +28,48 @@ lista3 = list(range(13, 131, 13))
 #Sposób 2
 for i in range(10):
     print(f'{lista1[i]}\t{lista2[i]}\t{lista3[i]}')
+
+
+#Zadanie 17
+from math import inf
+
 suma = 0
-# Zadanie 17
+'''max_liczba = -inf
+min_liczba = inf
+ile_mniej_3 = 0
+ile_przedzial = 0'''
 n = int(input('Podaj ile bedzie liczb'))
-for i in range(n):
+'''for i in range(n):
     liczba = int(input('Podaj liczbe'))
     suma = suma + liczba
-    print(suma)
+    if liczba > max_liczba:
+        max_liczba = liczba
+    if liczba < min_liczba:
+        min_liczba = liczba
+    if liczba < 3:
+
+        ile_mniej_3 = ile_mniej_3 + 1
+    if liczba > -2 and liczba <= 11:
+        ile_przedzial = ile_przedzial + 1
+
+
+
+
+print(suma)
+print(suma / n)
+print(max_liczba)
+print(min_liczba)
+print(ile_mniej_3)
+print(ile_przedzial)'''
+
+lista = []
+for i in range(n):
+    liczba = int(input('Podaj liczbe'))
+    lista.append(liczba)
+print(sum(lista))
+print(sum(lista) / n)
+print(max(lista))
+print(min(lista))
+
+
+
