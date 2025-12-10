@@ -33,3 +33,12 @@ if haslo == popr_haslo:
    print('Witaj w systemie')
 else:
     print('Nie ma hasła nie ma systemu ')
+
+
+#zadanie 3
+#w trakcie gdy n jest wieksze lub rowne od 0 to odejmujemy 1, gdy liczba jest nieparzysta to dalej odejmujemy
+# wszystko sie sumuje w jeden wynik czyli 20 + 18 + 16 + 14 + 12 + 10 + 8 + 6 + 4 + 2 + 0 - 2 = 108
+
+#zad 4
+#for i in range(10, 0, -1):
+   #print(i)
