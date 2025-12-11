@@ -73,3 +73,6 @@ print(min(lista))
 
 
 
+
+
+

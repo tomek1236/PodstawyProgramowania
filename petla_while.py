@@ -33,3 +33,5 @@ if haslo == popr_haslo:
    print('Witaj w systemie')
 else:
     print('Nie ma hasła nie ma systemu ')
+    #Zadanie 3
+    #Zadanie 4
