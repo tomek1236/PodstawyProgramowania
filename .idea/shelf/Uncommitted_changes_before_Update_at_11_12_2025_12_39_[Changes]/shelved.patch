@@ -1,0 +1,20 @@
+Index: petla_while.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Pętla while - przykłady\r\n\r\nliczba = 120\r\nlicznik = 0\r\n# pętl while podajemy warunek TRWANIA pętli\r\nwhile liczba > 0: #tak długo jak liczba jest dodatnia, pętla sięwykonuje\r\n    liczba = liczba // 2\r\n    licznik = licznik + 1\r\n\r\nprint(licznik)\r\n\r\n\r\n#Zadanie 1.\r\n'''x = input('Podaj liczbę lub q aby zakończyć')\r\nwhile x != 'q':\r\n    liczba = int(x)\r\n    if liczba < 2:\r\n        licznik = licznik + 1\r\n    x = input('Podaj liczbę lub q aby zakonczyć')\r\nprint(licznik)'''\r\n\r\n\r\n#Zadanie 2\r\npopr_haslo = 'informatyka'\r\n\r\nhaslo = input('Podaj hasło: ')\r\nproba = 1\r\nwhile haslo != popr_haslo and proba <= 5:\r\n    print('Hasło błedne, podaj raz jeszcze')\r\n    haslo = input('Podaj hasło')\r\n    proba = proba + 1\r\nif haslo == popr_haslo:\r\n   print('Witaj w systemie')\r\nelse:\r\n    print('Nie ma hasła nie ma systemu ')\r\n    #Zadanie 3\r\n    #Zadanie 4
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/petla_while.py b/petla_while.py
+--- a/petla_while.py	(revision 71636e548a30d4f591be9d4cc7fefa9a6110e5ba)
++++ b/petla_while.py	(date 1765453149543)
+@@ -32,6 +32,4 @@
+ if haslo == popr_haslo:
+    print('Witaj w systemie')
+ else:
+-    print('Nie ma hasła nie ma systemu ')
+-    #Zadanie 3
+-    #Zadanie 4
+\ No newline at end of file
++    print('Nie ma hasła nie ma systemu ')
+\ No newline at end of file
