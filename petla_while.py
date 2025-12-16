@@ -1,4 +1,5 @@
 #Pętla while - przykłady
+from time import sleep
 
 liczba = 120
 licznik = 0
@@ -21,7 +22,7 @@ print(licznik)'''
 
 
 #Zadanie 2
-popr_haslo = 'informatyka'
+'''popr_haslo = 'informatyka'
 
 haslo = input('Podaj hasło: ')
 proba = 1
@@ -32,7 +33,7 @@ while haslo != popr_haslo and proba <= 5:
 if haslo == popr_haslo:
    print('Witaj w systemie')
 else:
-    print('Nie ma hasła nie ma systemu ')
+    print('Nie ma hasła nie ma systemu ')'''
 
 
 #zadanie 3
@@ -44,3 +45,46 @@ else:
    #print(i)
 
    #wwwwwwwww
+'''wynik1 = 0
+wynik2 = 0
+akcja = 0
+from random import randint
+while not ((wynik1 >= 21 or wynik2 >= 21) and abs(wynik1 - wynik2) >= 2):
+    akcja += 1
+    print(f'Akcja {akcja}')
+    #druzyna = int(input('Podaj nr drużyny, która wygrała akcję'))
+    druzyna = randint(1, 2)
+    if druzyna == 1:
+        wynik1 += 1
+    else:
+        wynik2 += 1
+    print(f'Wynik {wynik1} : {wynik2}')
+    sleep(111)
+if wynik1 > wynik2:
+    print('Wygrała druzyna 1')
+else:
+    print('Wygrala druzyna 2')'''
+
+
+#Zadanie 7
+'''liczba = int(input('Podaj liczbe'))
+
+while liczba > 0:
+    cyfra = liczba % 10
+    liczba = liczba // 10
+    print(cyfra, end = '')'''
+
+# Zadanie 8
+liczba = int(input('Podaj liczbe'))
+d = 2
+ile_r_czyn = 0
+ile_czyn = 0
+
+while liczba > 1:
+    if liczba % d == 0:
+        ile_r_czyn += 1
+    while liczba % d == 0:
+        liczba = liczba // d
+    ile_czyn += 1
+    d += 1
+print(ile_czyn)
