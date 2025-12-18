@@ -75,7 +75,7 @@ while liczba > 0:
     print(cyfra, end = '')'''
 
 # Zadanie 8
-liczba = int(input('Podaj liczbe'))
+'''liczba = int(input('Podaj liczbe'))
 d = 2
 ile_r_czyn = 0
 ile_czyn = 0
@@ -87,29 +87,35 @@ while liczba > 1:
         liczba = liczba // d
     ile_czyn += 1
     d += 1
-print(ile_czyn)
+print(ile_czyn)'''
 
+#Zadanie 5
+from random import randint
 x = 0
 y = 0
 koniec = False
 
-while not koniec:
-    print("Wykonaj ruch")
-    ruch = input().lower()
 
+ruchy = ['p'] * 10 + ['d'] * 5 + ['l'] * 5 + ['g'] * 10 + ['q']
+print(ruchy)
+
+while not koniec:
+
+    #ruch = input('Podaj ruch')
+    ruch = ruchy[randint(0, len(ruchy) - 1)]
     if ruch == 'q':
         print("Koniec")
         koniec = True
     else:
         nx, ny = x, y
 
-        if ruch == 'g':      # góra
+        if ruch == 'g':
             ny += 1
-        elif ruch == 'd':    # dół
+        elif ruch == 'd':
             ny -= 1
-        elif ruch == 'p':    # prawo
+        elif ruch == 'p':
             nx += 1
-        elif ruch == 'l':    # lewo
+        elif ruch == 'l':
             nx -= 1
         else:
             print("Nieznany ruch")
@@ -120,3 +126,4 @@ while not koniec:
             print(f"({x}, {y})")
         else:
             print("Niemozliwe")
+        sleep(1)
