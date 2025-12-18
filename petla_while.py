@@ -88,3 +88,35 @@ while liczba > 1:
     ile_czyn += 1
     d += 1
 print(ile_czyn)
+
+x = 0
+y = 0
+koniec = False
+
+while not koniec:
+    print("Wykonaj ruch")
+    ruch = input().lower()
+
+    if ruch == 'q':
+        print("Koniec")
+        koniec = True
+    else:
+        nx, ny = x, y
+
+        if ruch == 'g':      # góra
+            ny += 1
+        elif ruch == 'd':    # dół
+            ny -= 1
+        elif ruch == 'p':    # prawo
+            nx += 1
+        elif ruch == 'l':    # lewo
+            nx -= 1
+        else:
+            print("Nieznany ruch")
+            continue
+
+        if 0 <= nx <= 9 and 0 <= ny <= 9:
+            x, y = nx, ny
+            print(f"({x}, {y})")
+        else:
+            print("Niemozliwe")
