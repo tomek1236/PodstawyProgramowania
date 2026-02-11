@@ -176,8 +176,7 @@ lista = {1, 5, 1, 2, 2, 1, 6, 7, 3, 2, 2, 1, 1, 4}
 zbior = set(lista)
 print(zbior)
 
-# --- Operacje na plecaku ---
-# Zakładam, że plecak to lista krotek, np. [("jabłko", 0.5), ("namiot", 2.0)]
+
 
 lzejsze_niz_1_kg = []
 for rzecz in plecak:
