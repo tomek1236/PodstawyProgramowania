@@ -136,3 +136,77 @@ suma2 = sum(kody_ascii_lista)
 print(suma2)'''
 
 
+
+max_suma = 0
+nr_wiersza = 0
+
+for i in range(len(plansza)):
+    suma = sum(plansza[i])
+    if suma > max_suma:
+        max_suma = suma
+        nr_wiersza = i + 1
+
+max_iloczyn = 0
+nr_kolumny = 0
+
+for i in range(len(plansza[0])):
+    iloczyn = 1
+    for j in range(len(plansza)):
+        iloczyn = iloczyn * plansza[j][i]
+    
+    if iloczyn > max_iloczyn:
+        max_iloczyn = iloczyn
+        nr_kolumny = i + 1
+
+print('numer wiersza z najwieksza suma:', nr_wiersza)
+print('numer wiersza z najwiekszym iloczynem:', nr_kolumny)
+
+
+
+suma_przekatnej = 0
+n = len(plansza)
+
+for i in range(n):
+    suma_przekatnej += plansza[n - 1 - i][i]
+print(suma_przekatnej)
+
+
+
+lista = {1, 5, 1, 2, 2, 1, 6, 7, 3, 2, 2, 1, 1, 4}
+zbior = set(lista)
+print(zbior)
+
+# --- Operacje na plecaku ---
+# Zakładam, że plecak to lista krotek, np. [("jabłko", 0.5), ("namiot", 2.0)]
+
+lzejsze_niz_1_kg = []
+for rzecz in plecak:
+    if rzecz[1] < 1:
+        lzejsze_niz_1_kg.append(rzecz[0])
+
+print(lzejsze_niz_1_kg)
+
+nowe_wagi = []
+for rzecz in plecak:
+    nowa_waga = round(rzecz[1] * 1.1, 2)
+    nowe_wagi.append(nowa_waga)
+
+print(nowe_wagi)
+
+licznik = 0
+for rzecz in plecak:
+    if rzecz[1] > 1.5:
+        licznik += 1
+
+print(licznik)
+
+wybrane_rzeczy = []
+for rzecz in plecak:
+    nazwa = rzecz[0]
+    waga = rzecz[1]
+    
+    if waga <= 1.5 and len(nazwa) > 5:
+        wybrane_rzeczy.append(nazwa)
+
+print(wybrane_rzeczy)
+
