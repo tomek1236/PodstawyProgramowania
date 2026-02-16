@@ -32,4 +32,57 @@ for e in lista1d_zbior:
     print(e, lista1d.count(e))
 
 
+slowa = [
+"LETTER",
+"BALLOON",
+"SUCCESS",
+"HAPPY",
+"COFFEE",
+"BOOKKEEPER",
+"ASSESS",
+"MISSISSIPPI",
+"ADDRESS",
+"TOOLBOX"
+]
+
+slowo = 'LETTER'
+slowo_zbior = set(slowo)
+print(slowo_zbior)
+print(len(slowo_zbior))
+
+max_x = ''
+max_l_r_l = 0
+
+for x in slowa:
+    x_zbior = set(x)
+    l_r_l = len(x_zbior)
+    if l_r_l > max_l_r_l:
+        max_l_r_l = l_r_l
+        max_x = x
+
+print(max_x)
+'''print(f'{x} {len(x_zbior)}')'''
+
+
+#Zadanie 2.2
+zbiorr = set()
+
+for x in slowa:
+    for y in x:
+        zbiorr.add(y)
+
+
+for l in zbiorr:
+    lista = []
+    for s in slowa:
+        if l in s:
+            lista.append(s)
+    print(f'{l}: {lista}')
+
+
+
+
+
+
+
 
