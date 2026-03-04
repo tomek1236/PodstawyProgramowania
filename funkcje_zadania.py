@@ -41,13 +41,24 @@ print(sorted(s1) == sorted(s2))
 #Zadanie 2.2
 def jaki_trojkat(a, b, c):
     if a + b + c > 2 * max([a, b, c]):
-    if a ** 2 + b ** 2 + c ** 2 == 2 * max([a, b, c]) ** 2:
-        print('Prostokątny')
+        if a ** 2 + b ** 2 + c ** 2 == 2 * max([a, b, c]) ** 2:
+            print('Prostokątny')
     elif a ** 2 + b ** 2 + c ** 2 > 2 * max([a, b, c]) ** 2:
         print('ostrokątny')
     elif a ** 2 + b ** 2 + c ** 2 < 2 * max([a, b, c]) ** 2:
-            print('rozwartokątny')
- else:
-    print('to nie trójkąt')
+        print('rozwartokątny')
+    else:
+        print('to nie trójkąt')
 
 jaki_trojkat(5, 10, 14)
+
+#Zadanie 2.3
+def liczby_niezalezne(lista):
+    for e in lista:
+        dzielniki = []
+        for l in lista:
+            if e % l == 0:
+                dzielniki.append(l)
+        if len(dzielniki) == 1:
+            wynik.append(e)
+    return wynik
