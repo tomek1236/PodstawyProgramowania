@@ -62,3 +62,24 @@ def liczby_niezalezne(lista):
         if len(dzielniki) == 1:
             wynik.append(e)
     return wynik
+
+
+def ile_cyfr(liczba):                  #liczba ma tyle cyfr ile dzieleń
+    licznik = 0
+    while liczba > 0:
+        liczba = liczba // 10
+        licznik += 1
+    return licznik
+
+liczba = 1300
+print(ile_cyfr(liczba))
+
+def unikatowe_elementy(l1, l2):
+    zbior = set()
+    l = l1 + l2
+    for x in l:
+        if l.count(x) == 1:
+            zbior.add(x)
+    return zbior
+
+print(unikatowe_elementy([1, 2, 6, 4, 5], [8, 4, 5, 2]))
