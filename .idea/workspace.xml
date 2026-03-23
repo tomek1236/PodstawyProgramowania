@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3be62baf-60eb-4cd7-9b2b-deb46b9b3219" name="Changes" comment="" />
+    <list default="true" id="3be62baf-60eb-4cd7-9b2b-deb46b9b3219" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dane2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wczytywanie_danych_z_pliku.py" beforeDir="false" afterPath="$PROJECT_DIR$/wczytywanie_danych_z_pliku.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +66,7 @@
     &quot;Python.petle_zagniezdzone.executor&quot;: &quot;Run&quot;,
     &quot;Python.slowniki.executor&quot;: &quot;Run&quot;,
     &quot;Python.testowy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wczytywanie_danych_z_pliku.executor&quot;: &quot;Run&quot;,
     &quot;Python.wejscie.executor&quot;: &quot;Run&quot;,
     &quot;Python.wejscie_i_wyjscie.executor&quot;: &quot;Run&quot;,
     &quot;Python.wyjscie.executor&quot;: &quot;Run&quot;,
