@@ -53,3 +53,5 @@ lista5 = ['fiz', 'jest', 'najlepsza', 'ale', 'inf', 'też', 'jednak', 'nic', 'ni
 
 lista6 = list(map(lambda x: slownik[x] if x in slownik else x, lista5))
 print(lista6)
+
+
