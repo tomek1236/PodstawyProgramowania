@@ -38,3 +38,32 @@ for x in dane:
 
 for g in Galerie:
     print(g.kraj, g.miasto, g.lokale_handlowe)
+
+
+galerie_sort = list(sorted(Galerie, key = lambda x: x.miasto))
+
+for g in galerie_sort:
+    print(g.kraj, g.miasto, g.lokale_handlowe)
+
+#Zadanie X
+#Sortowanie listy galerii według pola powierzchni pierwszego lokalu
+galerie_sort2 = list(sorted(Galerie, key = lambda x: x.lokale_handlowe[0][0] * x.lokale_handlowe[0][1]))
+
+
+
+#Zadanie 2.4
+def powierzchnia_galerii(galeria):
+    lista_lokali = galeria.lokale_handlowe
+    suma = 0
+    for p in lista_lokali:
+        pole = p[0] * p[1]
+        suma += pole
+    return suma
+
+
+
+galerie_sort_powierchnie = list(sorted(Galerie, key = lambda x: powierzchnia_galerii(x)))
+
+for g in galerie_sort_powierchnie:
+    print(g.kraj, g.miasto, g.lokale_handlowe)
+
