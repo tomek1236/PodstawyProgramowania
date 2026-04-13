@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3be62baf-60eb-4cd7-9b2b-deb46b9b3219" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/grupa B/zad2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grupa B/zad3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania_fizyczne_sprawdzian.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +76,8 @@
     "Python.wejscie_i_wyjscie.executor": "Run",
     "Python.wyjscie.executor": "Run",
     "Python.zad2.executor": "Run",
+    "Python.zad3.executor": "Run",
+    "Python.zadania_fizyczne_sprawdzian.executor": "Run",
     "Python.zbiory.executor": "Run",
     "Python.zbiory_slowniki_zadania.executor": "Run",
     "Python.zmienne.executor": "Run",
